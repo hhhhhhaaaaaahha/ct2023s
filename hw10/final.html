@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<meta charset="utf-8">
+	<title>聲聲慢</title>
+	<style type="text/css">
+		/* Global */
+		html {
+			min-height: 100%;
+			overflow: hidden;
+		}
+
+		body {
+			padding: 1em;
+			color: rgba(249, 236, 237, 0.75);
+			font-family: 'Anonymous Pro', monospace;
+			background-color: #36563C;
+		}
+
+		.line-1 {
+			position: relative;
+			top: 50%;
+			margin: 0 auto;
+			border-left: 2px solid rgba(255, 255, 255, .75);
+			font-size: 25pt;
+			white-space: nowrap;
+			overflow: hidden;
+			transform: translateY(-50%);
+		}
+
+		/* Animation */
+		.anim-typewriter {
+			animation: typewriter 5s steps(3000) 1s 1 normal both,
+				blinkTextCursor 1000ms steps(3000) infinite normal;
+		}
+
+		@keyframes typewriter {
+			from {
+				width: 0;
+			}
+
+			to {
+				width: 55em;
+			}
+		}
+
+		@keyframes blinkTextCursor {
+			from {
+				border-left-color: rgba(255, 255, 255, .75);
+			}
+
+			to {
+				border-left-color: transparent;
+			}
+		}
+
+		@font-face {
+			font-family: friend;
+			src: url(./friend.ttf);
+			font-weight: bold;
+		}
+
+		@font-face {
+			font-family: Myfont;
+			src: url(./Myfont.ttf);
+			font-weight: bold;
+		}
+
+		body {
+			writing-mode: vertical-rl;
+			font-family: 'BpmfZihiKaiStd-Regular', serif;
+			/* BpmfZihiKaiStd.zip : 字嗨注音標楷 */
+			line-height: 3.5em;
+		}
+
+		p {
+			font-size: 24pt;
+			padding: 8px 0px;
+		}
+
+		.title {
+			font-family: 'Myfont', serif;
+		}
+
+		.myself {
+			font-family: 'Myfont', serif;
+			position: absolute;
+			top: 220px;
+			right: 160px;
+		}
+
+		.friend {
+			font-family: 'friend', serif;
+			position: absolute;
+			top: 630px;
+			right: 160px;
+		}
+
+		p {
+			border: solid white 1px;
+			height: 380px;
+		}
+
+		a {
+			color: yellow;
+		}
+	</style>
+</head>
+
+<body>
+
+	<a href="https://github.com/cardze/ct2023s/tree/main/hw10">Myfont.ttf</a>, <a
+		href="https://github.com/ButTaiwan/bpmfvs/releases">字嗨注音標楷</a>, <a href="https://fontforge.org/en-US/">FontForge
+		字體鍛造</a>
+
+	<h1 class="title">聲聲慢 作者：李清照</h1>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="line-1 anim-typewriter myself">
+		塗晨睿<br>
+		尋尋覓覓，<br>
+		冷冷清清，<br>
+		淒淒慘慘戚戚。<br>
+		乍暖還寒時候，<br>
+		最難將息。<br>
+		三杯兩盞淡酒，<br>
+		怎敵他、<br>
+		晚來風急？<br>
+		雁過也，正傷心，<br>
+		卻是舊時相識。<br><br>
+
+		滿地黃花堆積。<br>
+		憔悴損，<br>
+		如今有誰堪摘？<br>
+		守著窗兒，<br>
+		獨自怎生得黑？<br>
+		梧桐更兼細雨，<br>
+		到黃昏、<br>
+		點點滴滴。<br>
+		這次第，<br>
+		怎一個愁字了得！<br>
+	</p>
+
+	<p class="line-1 anim-typewriter friend">
+		鄭少峰<br>
+		尋尋覓覓，<br>
+		冷冷清清，<br>
+		淒淒慘慘戚戚。<br>
+		乍暖還寒時候，<br>
+		最難將息。<br>
+		三杯兩盞淡酒，<br>
+		怎敵他、<br>
+		晚來風急？<br>
+		雁過也，正傷心，<br>
+		卻是舊時相識。<br><br>
+
+		滿地黃花堆積。<br>
+		憔悴損，<br>
+		如今有誰堪摘？<br>
+		守著窗兒，<br>
+		獨自怎生得黑？<br>
+		梧桐更兼細雨，<br>
+		到黃昏、<br>
+		點點滴滴。<br>
+		這次第，<br>
+		怎一個愁字了得！<br>
+	</p>
+
+
+
+</body>
+
+</html>
